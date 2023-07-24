@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+}
+
+.content {
+  margin: auto;
+  position: relative;
+}
+
+.container-title {
+  margin: 1em 2em;
+  font-size: 3em;
+  color: white;
+}
+
+.button_open {
+  position: fixed;
+  right: 4em;
+  z-index: 100;
+  font-size: 1.3em;
+  background-color: rgb(6, 86, 183);
+  color: white;
+  width: 700;
+  padding: 0.6em 0.7em 0.6em 1.5em;
+  margin: 2em 0;
+  box-shadow: 1px 1px 2pc 4px black;
+}
+
+.button_open:hover {
+  filter: brightness(1.2);
+}

@@ -1,0 +1,78 @@
+.container_usercard {
+  max-width: 1400px;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  justify-content: baseline;
+  gap: 1.9em;
+  padding: 2em;
+}
+
+.usercard-content {
+  width: 300px;
+
+  box-shadow: 3px 2px 5px 1px;
+  padding: 1em;
+  transition: transform 200ms ease;
+  cursor: pointer;
+  background-color: white;
+}
+
+.usercard-content:hover {
+  transform: scale(1.05);
+}
+
+.usercard_name {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.usercard_hr {
+  margin: 1em 0;
+  border: 1px solid rgba(151, 147, 147, 0.58);
+}
+
+.usercard_list_li {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2em;
+  margin-bottom: 0.8em;
+}
+
+.usercard_list_title {
+  color: rgb(171, 169, 167);
+  padding-left: 0.4em;
+}
+
+.usercard_content_btn {
+  display: flex;
+  justify-content: end;
+}
+
+.usercard_button {
+  display: flex;
+  align-items: center;
+  font-size: 1.3em;
+  margin: 0.2em;
+  border-radius: 15%;
+  padding: 0.3em;
+  color: rgb(242, 236, 236);
+}
+.card-icon {
+  font-size: 1.2em;
+}
+.clear-btn {
+  background-color: rgba(255, 0, 0, 0.604);
+}
+.clear-btn:hover {
+  background-color: red;
+  font-size: 1.5em;
+}
+
+.updata-btn {
+  background-color: rgba(21, 110, 21, 0.7);
+}
+.updata-btn:hover {
+  background-color: green;
+  font-size: 1.5em;
+}
