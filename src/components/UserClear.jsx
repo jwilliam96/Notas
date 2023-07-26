@@ -21,7 +21,7 @@ const UserClear = ({ userClear, setUserClear, deleteUserById, clearId }) => {
         <p className="userclear_p">
           Deseas eliminar el usuario{" "}
           <span className="userclear_name">
-            {`${clearId[1]} ${clearId[2]}`}
+            {`${clearId?.name} ${clearId?.first}`}
           </span>{" "}
           ?
         </p>

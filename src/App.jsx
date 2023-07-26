@@ -9,7 +9,7 @@ function App() {
   const [updateInfo, setUpdateInfo] = useState();
   const [clouseForm, setClouseForm] = useState(true);
   const [userClear, setUserClear] = useState(true);
-  const [clearId, setClearId] = useState([]);
+  const [clearId, setClearId] = useState({});
 
   const baseUrl = "https://users-crud.academlo.tech";
   const [users, getAllUsers, postNewUser, deleteUserById, updateUserById] =

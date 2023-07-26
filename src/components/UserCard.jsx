@@ -13,7 +13,7 @@ const UserCard = ({
   };
   const handleClear = () => {
     setUserClear(false);
-    setClearId([user.id, user.first_name, user.last_name]);
+    setClearId({ id: user.id, name: user.first_name, first: user.last_name });
   };
 
   return (
