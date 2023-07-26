@@ -15,7 +15,7 @@
   padding: 1em;
   transition: transform 200ms ease;
   cursor: pointer;
-  background-color: rgba(57, 194, 66, 0.559);
+  background-color: rgb(255, 255, 255);
 }
 
 .usercard-content:hover {
