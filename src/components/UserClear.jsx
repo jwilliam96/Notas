@@ -19,10 +19,10 @@ const UserClear = ({ userClear, setUserClear, deleteUserById, clearId }) => {
         </div>
         <h2>Eliminar usuario</h2>
         <p className="userclear_p">
-          Deseas eliminar el usuario{" "}
+          Deseas eliminar el usuario
           <span className="userclear_name">
             {`${clearId?.name} ${clearId?.first}`}
-          </span>{" "}
+          </span>
           ?
         </p>
         <button className="userclear_button" onClick={handleDelete}>
