@@ -3,7 +3,7 @@ import "./styles/userClear.css";
 
 const UserClear = ({ userClear, setUserClear, deleteUserById, clearId }) => {
   const handleDelete = () => {
-    deleteUserById("/users", clearId[0]);
+    deleteUserById("/users", clearId.id);
     setUserClear(true);
   };
 
